@@ -1,0 +1,30 @@
+{
+  "name": "clarity-crm-angular-node",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run build && node server.cjs",
+    "build": "ng build",
+    "serve": "npm start",
+    "test": "node --test test/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@angular/common": "19.2.25",
+    "@angular/compiler": "19.2.25",
+    "@angular/core": "19.2.25",
+    "@angular/forms": "19.2.25",
+    "@angular/platform-browser": "19.2.25",
+    "express": "^5.1.0",
+    "rxjs": "~7.8.2",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.2.0",
+    "@angular/cli": "^19.2.0",
+    "@angular/compiler-cli": "19.2.25",
+    "typescript": "~5.8.3"
+  }
+}
